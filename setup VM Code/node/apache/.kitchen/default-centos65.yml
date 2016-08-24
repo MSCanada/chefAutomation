@@ -1,0 +1,5 @@
+---
+hostname: 127.0.0.1
+port: '2222'
+username: vagrant
+ssh_key: c:/Users/Muhammad Suhail/Downloads/chap07/chefdk/apache/.kitchen/kitchen-vagrant/kitchen-apache-default-centos65/.vagrant/machines/default/virtualbox/private_key

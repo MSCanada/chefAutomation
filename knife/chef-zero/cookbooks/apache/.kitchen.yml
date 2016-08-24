@@ -1,0 +1,28 @@
+---
+driver:
+  name: vagrant
+
+provisioner:
+  name: chef_zero
+platforms:
+  - name: centos65
+    driver:
+      box: learningchef/centos65
+      box_url: learningchef/centos65
+
+suites:
+  - name: prod
+    provisioner:
+      client_rb:
+        environment: production
+    run_list:
+      - role[webserver]
+    attributes:
+
+  - name: dev
+    provisioner:
+      client_rb:
+        environment: dev
+    run_list:
+      - recipe[apache::default]
+    attributes:

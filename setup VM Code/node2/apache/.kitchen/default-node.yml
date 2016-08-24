@@ -1,0 +1,5 @@
+---
+hostname: 127.0.0.1
+port: '2200'
+username: vagrant
+ssh_key: C:/Users/Muhammad Suhail/Downloads/node/apache/.kitchen/kitchen-vagrant/kitchen-apache-default-node/.vagrant/machines/default/virtualbox/private_key
